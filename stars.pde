@@ -11,6 +11,7 @@ void setup() {
   }
 }
 void draw() {
+  stars.add(new Star());
   background(0);
   int i=0;
   while (i<n) {
